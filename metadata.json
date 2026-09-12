@@ -1,0 +1,6 @@
+{
+  "name": "Mahalaxmi Market",
+  "description": "Commercial shop rental management app for Mahalaxmi Market - manage shops, tenants, rent, electricity bills, payments, receipts and reports.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
