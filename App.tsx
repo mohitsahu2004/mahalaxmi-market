@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { db } from './src/services/db';
-import { Receipt } from './types';
+import { Receipt } from './src/types';
 import { SetupWizard } from './src/components/SetupWizard';
 import { AuthScreen } from './src/components/AuthScreen';
 import { AdminDashboard } from './src/components/admin/AdminDashboard';
