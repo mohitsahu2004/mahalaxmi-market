@@ -1,19 +1,19 @@
 import React, { useState, useEffect } from 'react';
 import { db } from './src/services/db';
 import { Receipt } from './types';
-import { SetupWizard } from './components/SetupWizard';
-import { AuthScreen } from './components/AuthScreen';
-import { AdminDashboard } from './components/admin/AdminDashboard';
-import { ShopManagement } from './components/admin/ShopManagement';
-import { RentManagement } from './components/admin/RentManagement';
-import { ElectricityManagement } from './components/admin/ElectricityManagement';
-import { PaymentManagement } from './components/admin/PaymentManagement';
-import { ReportsView } from './components/admin/ReportsView';
-import { AdminSettings } from './components/admin/AdminSettings';
-import { TenantPortal } from './components/tenant/TenantPortal';
-import { ReceiptModal } from './components/ReceiptModal';
-import { NotificationDrawer } from './components/NotificationDrawer';
-import { PWAInstallButton } from './components/PWAInstallButton';
+import { SetupWizard } from './src/components/SetupWizard';
+import { AuthScreen } from './src/components/AuthScreen';
+import { AdminDashboard } from './src/components/admin/AdminDashboard';
+import { ShopManagement } from './src/components/admin/ShopManagement';
+import { RentManagement } from './src/components/admin/RentManagement';
+import { ElectricityManagement } from './src/components/admin/ElectricityManagement';
+import { PaymentManagement } from './src/components/admin/PaymentManagement';
+import { ReportsView } from './src/components/admin/ReportsView';
+import { AdminSettings } from './src/components/admin/AdminSettings';
+import { TenantPortal } from './src/components/tenant/TenantPortal';
+import { ReceiptModal } from './src/components/ReceiptModal';
+import { NotificationDrawer } from './src/components/NotificationDrawer';
+import { PWAInstallButton } from './src/components/PWAInstallButton';
 import {
   Building2,
   LayoutDashboard,
