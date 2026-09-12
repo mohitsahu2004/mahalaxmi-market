@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { db } from './services/db';
+import { db } from './src/services/db';
 import { Receipt } from './types';
 import { SetupWizard } from './components/SetupWizard';
 import { AuthScreen } from './components/AuthScreen';
